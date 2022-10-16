@@ -1,0 +1,57 @@
+{
+	"name": "pwd",
+	"displayName": "pwd",
+	"description": "crud pwd item",
+	"version": "0.0.1",
+	"publisher": "gavin99",
+	"engines": {
+		"vscode": "^1.50.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:pwd",
+		"onCommand:pwd.helloWorld"
+	],
+	"main": "./src/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "pwd",
+				"title": "密码管理"
+			},
+			{
+				"command": "pwd.helloWorld",
+				"title": "Hello World"
+			}
+		]
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"pretest": "yarn run lint",
+		"test": "node ./test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.50.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.9.0",
+		"glob": "^7.1.6",
+		"mocha": "^8.1.3",
+		"typescript": "^4.0.2",
+		"vscode-test": "^1.4.0"
+	},
+	"__metadata": {
+		"id": "d9f7a8c9-b021-4136-96c1-8e08c3406bbe",
+		"publisherId": "b629f058-a9f3-498f-a995-b325d5b7adfa",
+		"publisherDisplayName": "gavin99",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"preRelease": false,
+		"installedTimestamp": 1664955920950
+	}
+}

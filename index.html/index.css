@@ -1,0 +1,20 @@
+body{background-color:rgb(17, 123, 158);}
+h1 {
+    text-align: center;
+    text-shadow: 10px 10px 10;
+    color:white;
+     margin: 20px;}
+div{ background-color:yellow;
+color:black;
+
+}
+a{
+border: 2px solid green;
+background-color: green;
+
+color:white ;
+
+}
+a:hover{
+background-color: blue;
+}
